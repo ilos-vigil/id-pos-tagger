@@ -1,0 +1,35 @@
+## tagger training invoked at Tue Mar 03 20:32:32 WIB 2020 with arguments:
+                   model = postagger-model-id.tagger
+                    arch = generic
+            wordFunction = 
+               trainFile = format=TSV,idn-tagged-corpus/Indonesian_Manually_Tagged_Corpus.tsv
+         closedClassTags = 
+ closedClassTagThreshold = 40
+ curWordMinFeatureThresh = 2
+                   debug = false
+             debugPrefix = 
+            tagSeparator = _
+                encoding = UTF-8
+              iterations = 100
+                    lang = 
+    learnClosedClassTags = false
+        minFeatureThresh = 5
+           openClassTags = NN MD RB VB JJ
+rareWordMinFeatureThresh = 10
+          rareWordThresh = 5
+                  search = qn
+                    sgml = false
+            sigmaSquared = 0.5
+                   regL1 = 1.0
+               tagInside = 
+                tokenize = true
+        tokenizerFactory = 
+        tokenizerOptions = 
+                 verbose = false
+          verboseResults = true
+    veryCommonWordThresh = 250
+                xmlInput = 
+              outputFile = 
+            outputFormat = slashTags
+     outputFormatOptions = 
+                nthreads = 1
